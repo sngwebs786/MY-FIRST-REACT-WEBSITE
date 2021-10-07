@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header'
+import Section1 from './components/Section1'
+import Footer from './components/Footer'
+import Copyright from './components/Copyright'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Section1/>
+    <Footer/>
+    <Copyright/>
+
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
